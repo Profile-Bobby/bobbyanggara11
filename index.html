@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunas Muda - Bobby Anggara</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      text-align: center;
+      padding: 45px 20px;
+      background: linear-gradient(135deg, #16a34a, #22c55e);
+    }
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #22c55e;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .banner img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+    .about p {
+      line-height: 1.6;
+      text-align: center;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .skills span {
+      background: #1e293b;
+      padding: 10px 16px;
+      border-radius: 25px;
+      font-size: 14px;
+    }
+    .stats {
+      display: flex;
+      gap: 15px;
+      text-align: center;
+    }
+    .stats div {
+      flex: 1;
+      background: #1e293b;
+      padding: 18px;
+      border-radius: 14px;
+    }
+    .stats h3 {
+      color: #22c55e;
+      font-size: 24px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+    .experience li {
+      list-style: none;
+      background: #1e293b;
+      padding: 12px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      margin: 6px 10px;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+    }
+    .wa {
+      background: #22c55e;
+    }
+    .ig {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .stats {
+        flex-direction: column;
+      }
+      .banner img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="bobby5.jpg" class="profile-img" alt="Foto Profil">
+    <h1>Bobby Anggara</h1>
+    <p>Flank • Anchor • Futsal Player</p>
+  </header>
+  <section class="banner">
+    <img src="bobby1.jpg" alt="Aksi Bermain">
+  </section>
+  <section class="about">
+    <h2>Tentang Bobby</h2>
+    <p>
+      Pemain futsal aktif asal Sidoarjo kelahiran 23 Juni 2009 dengan nomor punggung (11) mempunyai kecepatan, dribbling, dan visi bermain yang sangat baik.
+      Terbiasa bermain di turnamen dan pertandingan kompetitif.
+    </p>
+  </section>
+  <section>
+    <h2>Skill Utama</h2>
+    <div class="skills">
+      <span>⚡ Speed</span>
+      <span>🎯 Passing</span>
+      <span>🔥 Shooting</span>
+      <span>🧠 Vision</span>
+      <span>🛡️ Defense</span>
+    </div>
+  </section>
+  <section>
+    <h2>Statistik</h2>
+    <div class="stats">
+      <div>
+        <h3>974</h3>
+        <p>Gol</p>
+      </div>
+      <div>
+        <h3>812</h3>
+        <p>Assist</p>
+      </div>
+      <div>
+        <h3>2159</h3>
+        <p>Match</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Galeri Aksi</h2>
+    <div class="gallery">
+      <img src="bobby2.jpg">
+      <img src="bobby3.jpg">
+      <img src="bobby7.jpg">
+      <img src="bobby6.jpg">
+    </div>
+  </section>
+  <section>
+    <h2>Pengalaman</h2>
+    <ul class="experience">
+      <li>🏆 Juara 1 Turnamen Liga AAFI Nasional (2025)</li>
+      <li>⭐ Best Player Liga AAFI Nasional (2025)</li>
+    </ul>
+  </section>
+  <footer>
+    <a href="https://wa.me/6285385548442" class="wa">WhatsApp</a>
+    <a href="https://instagram.com/anggaraaa.b" class="ig">Instagram</a>
+    <p>© 2026 Tunas Muda FC</p>
+  </footer>
+</body>
+</html>
